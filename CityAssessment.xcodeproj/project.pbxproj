@@ -14,6 +14,9 @@
 		6233A4931A69818500F0523D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6233A4921A69818500F0523D /* Images.xcassets */; };
 		6233A4961A69818500F0523D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6233A4941A69818500F0523D /* LaunchScreen.xib */; };
 		6233A4A21A69818500F0523D /* CityAssessmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6233A4A11A69818500F0523D /* CityAssessmentTests.m */; };
+		6233A4B01A69822400F0523D /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 6233A4AF1A69822400F0523D /* City.m */; };
+		6233A4B31A69956A00F0523D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6233A4B21A69956A00F0523D /* DetailViewController.m */; };
+		62D5B2691A69B72900016F5B /* wikiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D5B2681A69B72900016F5B /* wikiViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		6233A49B1A69818500F0523D /* CityAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6233A4A01A69818500F0523D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6233A4A11A69818500F0523D /* CityAssessmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityAssessmentTests.m; sourceTree = "<group>"; };
+		6233A4AE1A69822400F0523D /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = City.h; path = ../City.h; sourceTree = "<group>"; };
+		6233A4AF1A69822400F0523D /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = City.m; path = ../City.m; sourceTree = "<group>"; };
+		6233A4B11A69956A00F0523D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		6233A4B21A69956A00F0523D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		62D5B2671A69B72900016F5B /* wikiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wikiViewController.h; path = ../wikiViewController.h; sourceTree = "<group>"; };
+		62D5B2681A69B72900016F5B /* wikiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = wikiViewController.m; path = ../wikiViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +94,13 @@
 				6233A48A1A69818500F0523D /* AppDelegate.m */,
 				6233A48C1A69818500F0523D /* ViewController.h */,
 				6233A48D1A69818500F0523D /* ViewController.m */,
+				6233A4B11A69956A00F0523D /* DetailViewController.h */,
+				6233A4B21A69956A00F0523D /* DetailViewController.m */,
+				62D5B2671A69B72900016F5B /* wikiViewController.h */,
+				62D5B2681A69B72900016F5B /* wikiViewController.m */,
 				6233A48F1A69818500F0523D /* Main.storyboard */,
+				6233A4AE1A69822400F0523D /* City.h */,
+				6233A4AF1A69822400F0523D /* City.m */,
 				6233A4921A69818500F0523D /* Images.xcassets */,
 				6233A4941A69818500F0523D /* LaunchScreen.xib */,
 				6233A4851A69818500F0523D /* Supporting Files */,
@@ -219,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6233A4B31A69956A00F0523D /* DetailViewController.m in Sources */,
 				6233A48E1A69818500F0523D /* ViewController.m in Sources */,
 				6233A48B1A69818500F0523D /* AppDelegate.m in Sources */,
+				62D5B2691A69B72900016F5B /* wikiViewController.m in Sources */,
+				6233A4B01A69822400F0523D /* City.m in Sources */,
 				6233A4881A69818500F0523D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +430,7 @@
 				6233A4A71A69818500F0523D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6233A4A81A69818500F0523D /* Build configuration list for PBXNativeTarget "CityAssessmentTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +439,7 @@
 				6233A4AA1A69818500F0523D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

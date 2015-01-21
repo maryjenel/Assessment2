@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WebViewController.h
 //  CityAssessment
 //
 //  Created by Mary Jenel Myers on 1/16/15.
@@ -8,13 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-
-
-@interface ViewController : UIViewController
-
-@property NSMutableArray *city;
-
-
+@interface WebViewController : UIViewController
 
 @end
-

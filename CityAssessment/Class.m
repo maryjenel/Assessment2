@@ -1,20 +1,13 @@
 //
-//  ViewController.h
+//  Class.m
 //  CityAssessment
 //
 //  Created by Mary Jenel Myers on 1/16/15.
 //  Copyright (c) 2015 Mary Jenel Myers. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Class.h"
 
-
-
-@interface ViewController : UIViewController
-
-@property NSMutableArray *city;
-
-
+@implementation Class
 
 @end
-
